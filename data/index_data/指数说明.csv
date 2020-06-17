@@ -1,0 +1,188 @@
+WindCodes,SEC_NAME,SEC_ENGLISHNAME,TRADE_CODE,LAUNCHDATE
+H00908.CSI,沪深300能源全收益,CSI 300 Energy TRI,h00908,2007/7/2
+H00909.CSI,沪深300材料全收益,CSI 300 Materials TRI,h00909,2007/7/2
+H00910.CSI,沪深300工业全收益,CSI 300 Industrials TRI,h00910,2007/7/2
+H00911.CSI,沪深300可选全收益,CSI 300 Consumer Discretionary Total Return Index,h00911,2007/7/2
+H00912.CSI,沪深300消费全收益,CSI 300 Consumer Staples Total Return Index,h00912,2007/7/2
+H00913.CSI,沪深300医药全收益,CSI 300 Health Care Total Return Index,h00913,2007/7/2
+H00914.CSI,沪深300金融全收益,CSI 300 Financials TRI,h00914,2007/7/2
+H00915.CSI,沪深300信息全收益,CSI 300 Information Technology Total Return Index,h00915,2007/7/2
+H00916.CSI,沪深300电信全收益,CSI 300 Telecommunication Services TRI,h00916,2007/7/2
+H00917.CSI,沪深300公用全收益,CSI 300 Utilities TRI,h00917,2007/7/2
+H00140.SH,上证5年国债(全),SSE 5-Year China Treasury Note (Full Price) Index,h00140,2012/9/12
+N00140.SH,上证5年国债(利息及再投资),SSE 5-Year China Treasury Note(Interest And Reinvestment Price) Index,n00140,2012/9/12
+N11077.SH,上证10年国债(利息及再投资),SSE 10-Year China Treasury Note Index (Interest And Reinvestment),n11077,2013/3/7
+921395.CSI,沪港深300(全),CSI SH-HK-SZ 300 Index Total Return,921395,2020/1/14
+921396.CSI,沪港深300(全)HKD,CSI SH-HK-SZ 300 Index Total Return(HKD),921396,2020/1/14
+921459.SH,中证800(全)USD,CSI 800 index TRI(USD),921459,2007/1/15
+921460.SH,中证1000(全)USD,CSI 1000 Index TRI(USD),921460,2014/10/17
+921463.CSI,300ESG全收益,CSI 300 ESG TRI,921463,2020/4/30
+921465.CSI,300ESG领先全收益,CSI 300 ESG Leaders TRI,921465,2020/4/30
+921466.CSI,300ESG价值全收益,CSI 300 ESG Value TRI,921466,2020/4/30
+H00852.SH,中证1000全收益,CSI 1000 TRI,h00852,2014/10/17
+H00902.CSI,中证流通全收益,CSI Free Float Total Return Index,h00902,2006/2/27
+H20903.CSI,中证A股全收益,CSI China A Share Index TRI,h20903,2016/10/18
+H00300.CSI,沪深300全收益,CSI 300 Total Return Index,h00300,2007/7/2
+H00903.CSI,中证100全收益,CSI 100 TRI,h00903,2006/5/29
+H00904.CSI,中证200全收益,CSI 200 TRI,h00904,2007/1/15
+H00905.CSI,中证500全收益,CSI 500 TRI,h00905,2007/1/15
+H00907.CSI,中证700全收益,CSI Small and Midcap 700 Total Return Index,h00907,2007/1/15
+H00906.CSI,中证800全收益,CSI 800 TRI,h00906,2007/1/15
+H00980.CSI,中证超大全收益,CSI Mega-Cap Total Return Index,h00980,2011/5/10
+H00985.CSI,中证全指全收益,CSI All Share Total Return Index,h00985,2011/8/2
+H00020.SH,中企收益,SSE Medium Composite Total Return Index,h00020,2008/5/12
+H00090.SH,上证流通全收益,SSE Free Float Total Return Index,h00090,2010/12/2
+H00010.SH,上证180全收益,SSE 180 Total Return Index,h00010,2002/7/1
+H00016.SH,上证50全收益,SSE 50 Total Return Index,h00016,2004/1/2
+H00009.SH,上证380全收益,SSE 380 Total Return Index,h00009,2010/11/29
+H00132.SH,上证100全收益,SSE 100 Total Return Index,h00132,2012/4/20
+H00133.SH,上证150全收益,SSE 150 Total Return Index,h00133,2012/4/20
+H00043.SH,超大盘全收益,SSE Mega-Cap Total Return Index,h00043,2009/4/23
+H00044.SH,上证中盘全收益,SSE Midcap Total Return Index,h00044,2009/7/3
+H00045.SH,上证小盘全收益,SSE Smallcap Total Return Index,h00045,2009/7/3
+H00046.SH,上证中小全收益,SSE Mid&Small Total Return Cap Index,h00046,2009/7/3
+H00047.SH,上证全指全收益,SSE Large&Mid&Small Total Return Cap Index,h00047,2009/7/3
+H00155.SH,上证市值百强全收益,SSE Market Value Top 100 Total Return Index,h00155,2012/7/20
+H00032.SH,上证能源全收益,SSE Energy Sector Total Return Index,h00032,2009/1/9
+H00033.SH,上证材料全收益,SSE Materials Sector Total Return Index,h00033,2009/1/9
+H00034.SH,上证工业全收益,SSE Industrials Sector Total Return Index,h00034,2009/1/9
+H00035.SH,上证可选全收益,SSE Consumer Discretionary Sector Total Return Index,h00035,2009/1/9
+H00036.SH,上证消费全收益,SSE Consumer Staples Sector Total Return Index,h00036,2009/1/9
+H00037.SH,上证医药全收益,SSE Health Care Sector Total Return Index,h00037,2009/1/9
+H00038.SH,上证金融全收益,SSE Financials Sector Total Return Index,h00038,2009/1/9
+H00039.SH,上证信息全收益,SSE Information Technology Sector Total Return Index,h00039,2009/1/9
+H00040.SH,上证电信全收益,SSE Telecommunication Services Sector Total Return Index,h00040,2009/1/9
+H00041.SH,上证公用全收益,SSE Utilities Sector Total Return Index,h00041,2009/1/9
+H40001.SH,180能源全收益,SSE 180 Energy Total Return Index,h40001,2012/6/29
+H40002.SH,180材料全收益,SSE 180 Materials Total Return Index,h40002,2012/6/29
+H40003.SH,180工业全收益,SSE 180 Industrials Total Return Index,h40003,2012/6/29
+H40004.SH,180可选全收益,SSE 180 Consumer Discretionary Total Return Index,h40004,2012/6/29
+H40005.SH,180消费全收益,SSE 180 Consumer Staples Total Return Index,h40005,2012/6/29
+H40006.SH,180医药全收益,SSE 180 Health Care Total Return Index,h40006,2012/6/29
+H40007.SH,180金地全收益,SSE 180 Financials Total Return Index,h40007,2012/6/29
+H40008.SH,180信息全收益,SSE 180 Information Technology Total Return Index,h40008,2012/6/29
+H40009.SH,180电信全收益,SSE 180 Telecommunication Services Total Return Index,h40009,2012/6/29
+H40010.SH,180公用全收益,SSE 180 Utilities Total Return Index,h40010,2012/6/29
+H00104.SH,380能源全收益,SSE 380 Energy Total Return Index,h00104,2011/6/13
+H00105.SH,380材料全收益,SSE 380 Materials Total Return Index,h00105,2011/6/13
+H00106.SH,380工业全收益,SSE 380 Industrials Total Return Index,h00106,2011/6/13
+H00107.SH,380可选全收益,SSE 380 Consumer Discretionary Total Return Index,h00107,2011/6/13
+H00108.SH,380消费全收益,SSE 380 Consumer Staples Total Return Index,h00108,2011/6/13
+H00109.SH,380医药全收益,SSE 380 Health Care Total Return Index,h00109,2011/6/13
+H00110.SH,380金融全收益,SSE 380 Financials Total Return Index,h00110,2011/6/13
+H00111.SH,380信息全收益,SSE 380 Information Technology Total Return Index,h00111,2011/6/13
+H00112.SH,380电信全收益,SSE 380 Telecommunication Services Total Return Index,h00112,2011/6/13
+H00113.SH,380公用全收益,SSE 380 Utilities Total Return Index,h00113,2011/6/13
+H00050.SH,50等权全收益,SSE Large-Cap Equal Weight Total Return Index,h00050,2011/1/4
+H00051.SH,180等权全收益,SSE 180 Equal Weight Total Return Index,h00051,2011/5/24
+H00052.SH,50基本全收益,SSE 50 Fundamental Weighted Total Return Index,h00052,2012/1/9
+H00053.SH,180基本全收益,SSE 180 Fundamental Weighted Total Return Index,h00053,2012/1/9
+H00070.SH,能源等权全收益,SSE Energy Sector Equal Weight Total Return Index,h00070,2010/8/18
+H00071.SH,材料等权全收益,SSE Materials Sector Equal Weight Total Return Index,h00071,2010/8/18
+H00072.SH,工业等权全收益,SSE Industrials Sector Equal Weight Total Return Index,h00072,2010/8/18
+H00073.SH,可选等权全收益,SSE Consumer Discretionary Sector Equal Weight Total Return Index,h00073,2010/8/18
+H00074.SH,消费等权全收益,SSE Consumer Staples Sector Equal Weight Total Return Index,h00074,2010/8/18
+H00075.SH,医药等权全收益,SSE Health Care Sector Equal Weight Total Return Index,h00075,2010/8/18
+H00076.SH,金融等权全收益,SSE Financials Sector Equal Weight Total Return Index,h00076,2010/8/18
+H00077.SH,信息等权全收益,SSE Information Technology Sector Equal Weight Total Return Index,h00077,2010/8/18
+H00078.SH,电信等权全收益,SSE Telecommunication Services Sector Equal Weight Total Return Index,h00078,2010/8/18
+H00079.SH,公用等权全收益,SSE Telecommunication Services Sector Equal Weight Total Return Index,h00079,2010/8/18
+H00093.SH,180分层全收益,SSE 180 Sector Equal Weight Total Return Index,h00093,2011/5/24
+H00098.SH,上证F200全收益,SSEF 200 Total Return Index,h00098,2011/7/1
+H00099.SH,上证F300全收益,SSEF 300 Total Return Index,h00099,2011/7/1
+H00100.SH,上证F500全收益,SSEF 500 Total Return Index,h00100,2011/7/1
+H00115.SH,380等权全收益,SSE 380 Equal Weight Total Return Index,h00115,2011/8/12
+H00128.SH,380基本全收益,SSE 380 Fundamental Weighted Total Return Index,h00128,2012/1/9
+H00129.SH,180波动全收益,SSE 180 Volatility Weighted Total Return Index,h00129,2012/1/9
+H00130.SH,380波动全收益,SSE 380 Volatility Weighted Total Return Index,h00130,2012/1/9
+H00135.SH,上证180高贝塔全收益,SSE 180 High Beta Total Return Index,h00135,2012/8/6
+H00136.SH,上证180低贝塔全收益,SSE 180 Low Beta Total Return Index,h00136,2012/8/6
+H00137.SH,上证380高贝塔全收益,SSE 180 High Beta Total Return Index,h00137,2012/8/6
+H00138.SH,上证380低贝塔全收益,SSE 380 Low Beta Total Return Index,h00138,2012/8/6
+H00028.SH,180成长全收益,SSE 180 Growth Total Return Index,h00028,2009/1/9
+H00029.SH,180价值全收益,SSE 180 Value Total Return Index,h00029,2009/1/9
+H00030.SH,180R成长全收益,SSE 180 Relative Growth Total Return Index,h00030,2009/1/9
+H00031.SH,180R价值全收益,SSE 180 Relative Value Total Return Index,h00031,2009/1/9
+H00057.SH,全指成长全收益,SSE Large&Mid&Small Cap Growth Total Return Index,h00057,2010/1/4
+H00058.SH,全指价值全收益,SSE Large&Mid&Small Cap Value Total Return Index,h00058,2010/1/4
+H00059.SH,全R成长全收益,SSE Large&Mid&Small Cap Relative Growth Total Return Index,h00059,2010/1/4
+H00060.SH,全R价值全收益,SSE Large&Mid&Small Cap Relative Value Total Return Index,h00060,2010/1/4
+H00117.SH,380成长全收益,SSE 380 Growth Total Return Index,h00117,2011/10/18
+H00118.SH,380价值全收益,SSE 380 Value Total Return Index,h00118,2011/10/18
+H00119.SH,380R成长全收益,SSE 380 Relative Growth Total Return Index,h00119,2011/10/18
+H00120.SH,380R价值全收益,SSE 380 Relative Value Total Return Index,h00120,2011/10/18
+H00018.SH,180金融全收益,SSE 180 Financial Total Return Index,h00018,2007/12/10
+H00021.SH,180治理全收益,SSE 180 Governance Total Return Index,h00021,2008/9/10
+H00025.SH,180基建全收益,SSE 180 Infrastructure Total Return Index,h00025,2008/12/15
+H00026.SH,180资源全收益,SSE 180 Natural Resource Total Return Index,h00026,2008/12/15
+H00027.SH,180运输全收益,SSE 180 Transportation Total Return Index,h00027,2008/12/15
+H00123.SH,上证180动态全收益,SSE 180 Dynamic Total Return Index,h00123,2013/2/8
+H00125.SH,上证180稳定全收益,SSE 180 Stability Total Return Index,h00125,2013/2/8
+H00149.SH,上证180红利全收益,SSE 180 Dividend Total Return Index,h00149,2012/7/20
+H00141.SH,上证380动态全收益,SSE 380 Dynamic Total Return Index,h00141,2013/2/8
+H00142.SH,上证380稳定全收益,SSE 380 Stability Total Return Index,h00142,2013/2/8
+H00150.SH,上证380红利全收益,SSE 380 Dividend Total Return Index,h00150,2012/7/20
+H40031.SH,沪绿色城全收益,SSE Urbanization Green Cities Total Return Index,h40031,2013/8/26
+H40032.SH,沪城交通全收益,SSE Urbanization Transport Total Return Index,h40032,2013/8/26
+H40033.SH,沪城消费全收益,SSE Urbanization Consumption Total Return Index,h40033,2013/8/26
+H40034.SH,沪城基建全收益,SSE Urbanization Infrastructure Total Return Index,h40034,2013/8/26
+H40035.SH,沪智交通全收益,SSE Urbanization Intelligent Transport Total Return Index,h40035,2013/8/26
+H40037.SH,上证城镇全收益,SSE Urbanization Total Return Index,h40037,2013/8/26
+H40038.SH,沪智慧城全收益,SSE Urbanization Smart Cities Total Return Index,h40038,2013/8/26
+H40021.SH,沪能源红全收益,SSE Energy Dividend Total Return Index,h40021,2013/7/2
+H40022.SH,沪材料红全收益,SSE Materials Dividend Total Return Index,h40022,2013/7/2
+H40023.SH,沪工业红全收益,SSE Industrials Dividend Total Return Index,h40023,2013/7/2
+H40024.SH,沪可选红全收益,SSE Consumer Discretionary Dividend Total Return Index,h40024,2013/7/2
+H40025.SH,沪消费红全收益,SSE Consumer Staples Dividend Total Return Index,h40025,2013/7/2
+H40026.SH,沪医药红全收益,SSE Health Care Dividend Total Return Index,h40026,2013/7/2
+H40027.SH,沪金融红全收益,SSE Financials Dividend Total Return Index,h40027,2013/7/2
+H40028.SH,沪信息红全收益,SSE Information Technology Dividend Total Return Index,h40028,2013/7/2
+H40029.SH,沪电信红全收益,SSE Telecommunication Services Dividend Total Return Index,h40029,2013/7/2
+H40030.SH,沪公用红全收益,SSE Utilities Dividend Total Return Index,h40030,2013/7/2
+H00015.SH,上证红利全收益,SSE Dividend Total Return Index,h00015,2005/1/4
+H00151.SH,上证国企红利全收益,SSE State-Owned Enterprises Dividend Total Return Index,h00151,2012/7/20
+H00152.SH,上证央企红利全收益,SSE Central State-Owned Enterprises Dividend Total Return Index,h00152,2012/7/20
+H00153.SH,上证民企红利全收益,SSE Private-Owned Enterprises Dividend Total Return Index,h00153,2012/7/20
+H40019.SH,上红回报全收益,SSE Dividend Return Total Return Index,h40019,2013/3/27
+H40020.SH,上红潜力全收益,SSE Dividend Potential Total Return Index,h40020,2013/7/2
+H00019.SH,治理指数全收益,SSE Governance Total Return Index,h00019,2008/1/2
+H00042.SH,上证央企全收益,SSE Central State-Owned Enterprises 50 Total Return Index,h00042,2009/3/30
+H00048.SH,责任指数全收益,SSE Responsibility Total Return Index,h00048,2009/8/5
+H00049.SH,上证民企全收益,SSE Private-Owned Enterprises 50 Total Return Index,h00049,2009/8/25
+H00054.SH,上证海外全收益,SSE Overseas-Listing A Shares Total Return Index,h00054,2010/1/4
+H00055.SH,上证地企全收益,SSE Local State-Owned Enterprises 50 Total Return Index,h00055,2010/1/4
+H00056.SH,上证国企全收益,SSE State-Owned Enterprises 100 Total Return Index,h00056,2010/1/4
+H00062.SH,上证沪企全收益,SSE Shanghai Enterprises Total Return Index,h00062,2010/1/4
+H00063.SH,上证周期全收益,SSE Cyclical Industry 50 Total Return Index,h00063,2010/2/3
+H00064.SH,非周期全收益,SSE Non-Cyclical Industry 100 Total Return Index,h00064,2010/2/3
+H00065.SH,上证龙头全收益,SSE Industry Top Total Return Index,h00065,2010/2/9
+H00066.SH,上证商品全收益,SSE Commodity Equity Total Return Index,h00066,2010/4/30
+H00067.SH,上证新兴全收益,SSE Emerging Industries Total Return Index,h00067,2010/4/30
+H00068.SH,上证资源全收益,SSE Natural Resource Total Return Index,h00068,2010/5/28
+H00069.SH,消费80全收益,SSE Consumer 80 Total Return Index,h00069,2010/5/28
+H00092.SH,资源50全收益,SSE Resource 50 Index,h00092,2011/5/10
+H00094.SH,上证上游全收益,SSE Upstream Industry Total Return Index,h00094,2011/5/10
+H00095.SH,上证中游全收益,SSE Midstream Industry Total Return Index,h00095,2011/5/10
+H00096.SH,上证下游全收益,SSE Downstream Industry Total Return Index,h00096,2011/5/10
+H00097.SH,高端装备全收益,SSE High-End Equipment Manufacturing 60 Index,h00097,2011/5/24
+H00102.SH,沪投资品全收益,SSE Investment Commodity Total Return Index,h00102,2011/6/13
+H00103.SH,沪消费品全收益,SSE Consume Commodity Total Return Index,h00103,2011/6/13
+H00114.SH,持续产业全收益,SSE Sustainable Development Industry Total Return Index,h00114,2011/8/22
+H00121.SH,医药主题全收益,SSE Health Care Theme Total Return Index,h00121,2011/10/18
+H00122.SH,农业主题全收益,SSE Agriculture Theme Total Return Index,h00122,2011/10/18
+H00126.SH,消费50全收益,SSE Consumer 50 Total Return Index,h00126,2011/12/9
+H00131.SH,上证高新全收益,SSE High And New Technology Enterprises Total Return Index,h00131,2012/2/10
+H00134.SH,上证银行全收益,SSE Banks Total Return Index,h00134,2012/5/29
+H00145.SH,优势资源全收益,SSE Select Resources Industries Total Return Index,h00145,2012/5/29
+H00146.SH,优势制造全收益,SSE Select Manufacturing Industries Total Return Index,h00146,2012/5/29
+H00147.SH,优势消费全收益,SSE Select Consumption Industries Total Return Index,h00147,2012/5/29
+H00148.SH,消费领先全收益,SSE Leading Consumption And Services Total Return Index,h00148,2012/5/29
+H00158.SH,上证环保全收益,SSE Environmental Protection Industry Total Return Index,h00158,2012/9/25
+H40011.SH,沪环渤海全收益,SSE Bohai Industry Top Total Return Index,h40011,2012/9/27
+H40012.SH,沪长三角全收益,SSE Yangtze Industry Top Total Return Index,h40012,2012/9/27
+H40013.SH,沪珠三角全收益,SSE Pan Pearl River Industry Top Total Return Index,h40013,2012/9/27
+H40014.SH,沪中部全收益,SSE Central Region Industry Top Total Return Index,h40014,2012/9/27
+H40015.SH,沪西部全收益,SSE West Region Industry Top Total Return Index,h40015,2012/9/27
+H40016.SH,沪东北全收益,SSE Northeast Region Industry Top Total Return Index,h40016,2012/9/27
+H40017.SH,沪信息业全收益,SSE Strategic Information Industry Total Return Index,h40017,2012/12/20
+H40018.SH,上证文化全收益,SSE Culture Industries Total Return Index,h40018,2013/3/26
