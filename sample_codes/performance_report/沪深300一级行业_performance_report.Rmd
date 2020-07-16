@@ -1,0 +1,172 @@
+---
+title: "Testing portfolio allocation with 沪深300一级行业全收益指数"
+author: "hfwang"
+date: "2020/6/17"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r load libraries, include=FALSE}
+## include = FALSE means to have the chunk evaluated, but neither the code nor its output displayed.
+
+library(xts)
+library(lubridate)
+library(quantmod)
+library(TTR)
+library(PerformanceAnalytics)
+library(gridExtra)
+
+source("cal_ret.R")
+setwd("E:/My_Programs/allocation_models")
+
+```
+
+### Read data
+
+read data from local csv files, data downloaded previously from yahoo Finance. 
+
+```{r read local data}
+s_index_data.raw<-read.csv("data/沪深一级行业全收益序列200707-202006.csv")
+
+```
+
+```{r convert to xts format, include=FALSE}
+s_index_data<-na.locf(xts(s_index_data.raw[,-1],ymd(s_index_data.raw[,1]))) 
+
+s_index.ret<-na.omit(ROC(s_index_data))
+
+```
+
+```{r begin/end dates, echo=FALSE}
+begin_date<-start(s_index.ret)
+end_date<-end(s_index.ret)
+
+```
+
+
+### read benchmark portfolio returns
+read 60/40 benchmark generated with 沪深300全收益 and 上证10年国债全收益指数 ("benchmark")
+
+```{r generate benchmark}
+
+benchmark.raw<-read.csv("data/benchmark_60_40_沪深300全收益上证10年国债.csv")
+## this is already return data
+benchmark.ret<-na.locf(xts(benchmark.raw[,-1],ymd(benchmark.raw[,1]))) 
+
+csi300.raw<-read.csv("data/上50沪深300全收益指数.csv")
+csi300.ret<-xts(csi300.raw[,-1], ymd(csi300.raw[,1]))$H00300.CSI
+csi300.ret<-na.omit(ROC(csi300.ret))
+```
+
+generate equal weight portfolio with ten sectors ("portfolio")
+
+```{r general equal weight portfolio}
+portf.ret<-Return.portfolio(s_index.ret,rebalance_on="months", verbose=T)
+```
+
+generate naive risk parity portfolio with weights being the inverse of previous month volatility
+
+```{r generate naive risk parity portfolio}
+risk_parity.ret<-portf.naive_risk_parity(s_index.ret, verbose=T)
+```
+
+```{r combine asset returns and benchmark returns, include=FALSE}
+##combine asset returns and benchmark returns
+
+all.ret<-na.omit(cbind(portf.ret$returns,risk_parity.ret$returns, benchmark.ret,csi300.ret))
+colnames(all.ret)<-c("Equal_weight","Risk_parity","Sixty_fourty", "CSI300")
+
+```
+
+
+```{r read table info, include=FALSE}
+## read asset names
+index_csv<-read.csv("wind_data/沪深300一级全收益指数.csv")
+
+index_csv<-na.omit(index_csv)
+index_csv<-data.frame(index_csv)
+
+```
+
+#### 标的名称和代码
+
+```{r print table info, echo=FALSE}
+index_csv$SEC_ENGLISHNAME<-NULL
+grid.table(index_csv)
+
+```
+
+
+### Generate Performance   
+
+#### Data from `r begin_date` to `r end_date`
+
+#### Correlation Matrix
+
+```{r correlation matrix, echo=FALSE}
+round(cor(s_index.ret),2)
+round(cor(all.ret),2)
+```
+
+
+#### Performance Summary
+
+```{r performance Charts of Raw Data, echo=TRUE}
+charts.PerformanceSummary(s_index.ret, date.format="%Y%m", main="asset returns")
+
+charts.PerformanceSummary(all.ret, date.format="%Y%m", main="Benchmark Portfolios")
+
+all_asset.ret<-cbind(s_index.ret,portf.ret$returns,risk_parity.ret$returns)
+
+tab.perf(all_asset.ret["20120912/"])
+
+tab.perf(all.ret["20120912/"])
+
+
+```
+
+Portfolio Calendar Year Returns
+
+```{r all portfolio annual returns, echo=FALSE}
+
+cal_annual_ret<-gen_cal_annual_ret(s_index.ret,colnames(s_index.ret))
+
+
+cal_annual_ret<-gen_cal_annual_ret(all.ret,colnames(all.ret))
+
+cal_annual_ret
+```
+
+Equal weight portfolio Calendar Date Returns 
+
+``` {r equal weight calendar return, echo=FALSE}
+cal<-calendar_ret(portf.ret$returns)
+cal
+
+```
+
+Equal Weight Portfolio Weights over time
+
+```{r equal weight portfolio weights, echo=FALSE}
+
+chart.StackedBar(portf.ret$BOP.Value,date.format="%y/%m", colorset=rainbow12equal, border=NA)
+```
+
+Naive Risk Parity Portfolio Calendar Date Returns 
+
+``` {r naive risk parity calendar return, echo=FALSE}
+cal<-calendar_ret(risk_parity.ret$returns)
+cal
+```
+
+Naive Risk Parity Portfolio Weights over time
+
+```{r naive risk parity portfolio weights, echo=FALSE}
+
+chart.StackedBar(risk_parity.ret$BOP.Value,date.format="%y/%m", colorset=rainbow12equal, border=NA)
+```
